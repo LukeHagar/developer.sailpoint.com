@@ -19,10 +19,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/products/arm/api
-/products/idn/api/v3
-products/idn/api/beta
-/products/iiq/api
+# /products/arm/api
+# /products/idn/api/v3
+# /products/idn/api/beta
+# /products/iiq/api
 
 #Alogolia env file
 /algolia/.env
