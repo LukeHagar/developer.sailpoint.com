@@ -79,6 +79,8 @@ const config = {
         darkTheme: darkCodeTheme,
         additionalLanguages: ['http', 'java', 'ruby', 'php', 'csharp'],
       },
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: 'search',
     }),
 
   plugins: plugins,

@@ -237,6 +237,15 @@
   --ifm-color-secondary: #cc27b0;
   --ifm-link-color: #0188f7;
 
+  --white: #ffffff;
+  --cobalt: #0033a1;
+  --blue: #0071ce;
+  --aqua: #54c0e8;
+  --hotpink: #cc27b0;
+  --darkgray: #415364;
+  --lightgray: #dae1e9;
+  --neongreen: #93d500;
+
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --dev-text-color-cobalt: #0033a1;
@@ -452,7 +461,12 @@ ul {
 }
 
 div[class^='announcementBar_'] {
-  background: repeating-linear-gradient(145deg,rgba(0,51,161,1),rgba(0,79,181,1),rgba(0,113,206,1));
+  background: repeating-linear-gradient(
+    145deg,
+    rgba(0, 51, 161, 1),
+    rgba(0, 79, 181, 1),
+    rgba(0, 113, 206, 1)
+  );
   color: #ffffff;
   height: 35px;
 }
